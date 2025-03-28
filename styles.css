@@ -1,0 +1,144 @@
+body {
+    margin:0px;
+    background: #eee;
+}
+
+.header-class {
+    background: #558a9d;
+    box-shadow: 0px 3px 14px 4px #a8abdb;
+    color: #fff;
+    padding: 20px 30px;
+    overflow: hidden;
+}
+
+.header-class h1 {
+    float:left;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.header-class nav {
+    float: right;
+    font-weight: bold;
+}
+
+.header-class nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px; 
+
+ }
+
+ .header-class nav ul li a {
+    text-decoration:none;
+    text-transform: uppercase;
+    color: #1b1734;
+}
+
+.header-class nav ul li a:hover {
+    color: #fff;
+}
+
+.infosite {
+    text-align: left;
+    padding: 30px;
+    background: #eee;
+}
+
+.infosite h1 {
+    /* margin-top: 0; */
+    color: rgb(66, 115, 158);
+}
+
+.wrapper-col {
+    width: 90%;
+    /* background: #eee; */
+    overflow: hidden;
+    padding: 20px;
+    margin: auto;
+}
+
+.col-main {
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+.col-main a{
+    color: #b9375e;
+    text-decoration: none;
+}
+
+.col-main a:hover {
+    color: #fff;
+}
+
+.col-sidebar {
+    width: 25%;
+    /* background: rgb(215 209 209);; */
+    float: right;
+    padding: 20px 2.5%;
+}
+
+.footer-site {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #558a9d;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-site a {
+    color: #1b1734;;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.footer-site a:hover {
+    color: #fff;
+}
+
+.footer-site ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#search-form {
+    width: 140px;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 40px;
+    outline: none;
+    /* border: none; */
+}
+
+table, td, th {
+    padding: 5px;
+}
+
+table {
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+}
+
+#prod tr:nth-child(odd), #categ tr:nth-child(odd), #predpr tr:nth-child(odd) {
+    background-color: #dfdfdf;
+}
+
+.edit_fields {
+    border: 0;
+}
+.edit_fields td {
+    border: 0;
+    text-align: center;
+}
+.edit_fields th {
+    border: 0;
+    text-align: center;
+}
